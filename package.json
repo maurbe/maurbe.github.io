@@ -1,9 +1,9 @@
 {
-  "name": "devfolio",
+  "name": "home",
   "private": true,
-  "description": "A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS",
+  "description": "Mauro Bernardini's personal website based on Ryan Fitzgerald's devfolio template",
   "version": "0.1.0",
-  "author": "Ryan Fitzgerald",
+  "author": "Mauro Bernardini",
   "dependencies": {
     "gatsby": "^5.12.12",
     "gatsby-image": "^3.11.0",
@@ -46,13 +46,14 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "npx gatsby build && gh-pages -d public -b main"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanFitzgerald/devfolio"
+    "url": "https://github.com/maurbe/home"
   },
   "bugs": {
-    "url": "https://github.com/RyanFitzgerald/devfolio/issues"
+    "url": "https://github.com/maurbe/home/issues"
   }
 }
