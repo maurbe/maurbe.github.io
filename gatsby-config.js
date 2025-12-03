@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://maurbe.github.io/home/`,
+    siteUrl: `https://maurbe.github.io/`,
     // Your Name
     name: 'Mauro Bernardini',
     // Main Site Title
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     // linkedin: `https://github.com/RyanFitzgerald/devfolio`,
     // Content of the About Me section
-    about: `Hi there, I am ...`,
+    about: `Hi there, I am an astrophysicist and data scientist with a passion for xyz...`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
