@@ -7,7 +7,9 @@ module.exports = {
     // Main Site Title
     title: `Mauro Bernardini | Data analysis & Astrophysics`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Postdoctoral Researcher in Galaxy Formation based in Zurich, Switzerland. 
+    My research focuses on numerical simulations and visualization methods, Machine Learning applications and AI integration 
+    for scientific analysis pipelines.`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
     // Optional: Github account URL
@@ -15,44 +17,53 @@ module.exports = {
     // Optional: LinkedIn account URL
     // linkedin: `https://github.com/RyanFitzgerald/devfolio`,
     // Content of the About Me section
-    about: `Hi there, I am an astrophysicist and data scientist with a passion for xyz...`,
+    about: `Hi there, I am an astrophysicist and data scientist by training with a passion for coding and everything AI-related.
+    I love to explore new ways to visualize complex data sets and research results.
+    When I am not working on projects, you will probably find me outdoors, training handstands or reading a good book.
+    Feel free to reach out, whether it's serious business or just a friendly hi!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'ember-1',
         description:
-          'Project description',
+          'A research project where I deployed neural networks to emulate the most expensive part of hydrodynamical simulations of galaxy formation: baryons! \
+          While ember-1 achieves similar accuracy, it is over 30,000 times faster compared to the full simulation. \
+          Built with TensorFlow and Keras.',
         link: 'https://github.com/maurbe/ember-1',
       },
       {
         name: 'ember-2',
         description:
-          'Project description',
+          'The successor of ember-1, extending the framework to large simulation times and more emulated baryon channels. \
+           Bigger, better, faster, and a little bit smarter too! \
+           Built with PyTorch.',
         link: 'https://maurbe.github.io/ember-2/',
       },
       {
         name: 'punkt',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
+          'A python package to visualize simulation data. the package provides particle-to-grid operations using Smoothed Particle Hydrodynamics.\
+          Try it out, it\'s free and blazingly fast!\
+          Built with C++, OpenMP and Python.',
         link: 'https://github.com/maurbe/punkt',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Postdoctoral Researcher in Galaxy Formation',
+        description: 'University of Zurich, December 2023 - Present',
+        link: 'https://orcid.org/0000-0002-2930-9509',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'PhD in Data Science and Astrophysics',
+        description: 'University of Zurich, October 2019 - October 2023',
+        link: 'https://orcid.org/0000-0002-2930-9509',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Master of Natural Sciences in Physics',
+        description: 'University of Zurich, September 2013 - September 2019',
+        link: 'https://orcid.org/0000-0002-2930-9509',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
