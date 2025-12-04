@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Mauro Bernardini - portfolio`,
     // Description that goes under your name in main bio
-    description: `Postdoctoral Researcher in Galaxy Formation based in Zurich, Switzerland 🇨🇭. 
+    description: `Postdoctoral Researcher in Galaxy Formation based in Zurich, Switzerland🇨🇭. 
     My research focuses on numerical simulations and visualization methods, Machine Learning applications and AI integration 
     for scientific analysis pipelines.`,
     // Optional: Twitter account handle
