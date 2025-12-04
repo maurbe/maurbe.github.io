@@ -1,5 +1,5 @@
 # maurbe.github.io
-Repository containing the source code for the personal website based on Ryan Fitzgerald's [devportfolio](https://github.com/RyanFitzgerald/devportfolio) repo.\
+Repository containing the source code for the personal website based on Ryan Fitzgerald's [devfolio](https://github.com/RyanFitzgerald/devfolio) repo.\
 Note to myself: To update the website with modifications run 
 ```
 npm run build
