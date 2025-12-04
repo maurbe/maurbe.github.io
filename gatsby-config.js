@@ -5,22 +5,26 @@ module.exports = {
     // Your Name
     name: 'Mauro Bernardini',
     // Main Site Title
-    title: `Mauro Bernardini | Data analysis & Astrophysics`,
+    title: `Mauro Bernardini - portfolio`,
     // Description that goes under your name in main bio
-    description: `Postdoctoral Researcher in Galaxy Formation based in Zurich, Switzerland. 
+    description: `Postdoctoral Researcher in Galaxy Formation based in Zurich, Switzerland 🇨🇭. 
     My research focuses on numerical simulations and visualization methods, Machine Learning applications and AI integration 
     for scientific analysis pipelines.`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
     // Optional: Github account URL
     github: `https://github.com/maurbe`,
+    ads: `https://ui.adsabs.harvard.edu/search/q=orcid%3A%220000-0002-2930-9509%22&sort=date%20desc%2C%20bibcode%20desc&p_=0`,
+    researchgate: `https://www.researchgate.net/scientific-contributions/Mauro-Bernardini-2182139395`,
+    orcid: `https://orcid.org/0000-0002-2930-9509`,
     // Optional: LinkedIn account URL
     // linkedin: `https://github.com/RyanFitzgerald/devfolio`,
     // Content of the About Me section
     about: `Hi there, I am an astrophysicist and data scientist by training with a passion for coding and everything AI-related.
     I love to explore new ways to visualize complex data sets and research results.
+    Find out more through my CV above.
     When I am not working on projects, you will probably find me outdoors, training handstands or reading a good book.
-    Feel free to reach out, whether it's serious business or just a friendly hi!`,
+    Feel free to reach out, whether it's serious business or just for a friendly hi!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -42,7 +46,7 @@ module.exports = {
       {
         name: 'punkt',
         description:
-          'A python package to visualize simulation data. the package provides particle-to-grid operations using Smoothed Particle Hydrodynamics.\
+          'A python package to visualize simulation data. The package provides particle-to-grid operations using Smoothed Particle Hydrodynamics.\
           Try it out, it\'s free and blazingly fast!\
           Built with C++, OpenMP and Python.',
         link: 'https://github.com/maurbe/punkt',
@@ -69,18 +73,23 @@ module.exports = {
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Programming',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Python, C, C++, Cython, SQL, Bash, HTML, CSS',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Frameworks & Libraries',
+        description: 'Git, Conda, VS-Code, TensorFlow, Keras, PyTorch, LibTorch, Lightning, Plotly',
       },
       {
-        name: 'Other',
+        name: 'Soft',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Critical thinking, scientific writing, public speaking, teaching, team/project management',
+      },
+      {
+        name: 'Spoken Languages',
+        description:
+          'German (native), English (fluent), Italian (fluent), French (basic)',
       },
     ],
   },

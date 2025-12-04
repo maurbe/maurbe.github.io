@@ -25,11 +25,9 @@ const Index = ({ data }) => {
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
       {about && <SectionAbout about={about} />}
       {projects && projects.length && <SectionProjects projects={projects} />}
-      {!noBlog && <SectionBlog posts={posts} />}
-      {experience && experience.length && (
-        <SectionExperience experience={experience} />
-      )}
       {skills && skills.length && <SectionSkills skills={skills} />}
+      {experience && experience.length && (<SectionExperience experience={experience} />)}
+      {/*!noBlog && <SectionBlog posts={posts} />*/}
     </Layout>
   );
 };
@@ -47,6 +45,9 @@ export const pageQuery = graphql`
         author
         github
         linkedin
+        researchgate
+        orcid
+        ads
         projects {
           name
           description

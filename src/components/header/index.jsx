@@ -3,6 +3,9 @@ import get from 'lodash/get';
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 
+import cv from "../../documents/CV_academic.pdf";
+
+
 const classes = {
   wrapper: 'block mb-6 md:flex',
   imageWrapper: 'w-full max-w-150',
@@ -19,6 +22,9 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
+  const ads = get(metadata, 'ads', false);
+  const researchgate = get(metadata, 'researchgate', false);
+  const orcid = get(metadata, 'orcid', false);
 
   return (
     <div className={classes.wrapper}>
@@ -26,7 +32,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         <Link to="/">
           <StaticImage
             className={classes.image}
-            src="../../images/profile.jpg"
+            src="../../images/portrait.png"
             alt={metadata.name}
             placeholder="dominantColor"
             layout="fullWidth"
@@ -63,13 +69,41 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {!noBlog && (
+          {cv && (
+            <li className={classes.item}>
+              <a className={classes.link} href={cv} target="_blank" rel="noopener noreferrer">
+                CV
+              </a>
+            </li>
+          )}
+          {ads && (
+            <li className={classes.item}>
+              <a className={classes.link} href={ads}>
+                ADS
+              </a>
+            </li>
+          )}
+          {researchgate && (
+            <li className={classes.item}>
+              <a className={classes.link} href={researchgate}>
+                ResearchGate
+              </a>
+            </li>
+          )}
+          {orcid && (
+            <li className={classes.item}>
+              <a className={classes.link} href={orcid}>
+                ORCID
+              </a>
+            </li>
+          )}
+          {/*!noBlog && (
             <li className={classes.item}>
               <Link className={classes.link} to="/blog">
                 Blog
               </Link>
             </li>
-          )}
+          )*/}
         </ul>
       </div>
     </div>
