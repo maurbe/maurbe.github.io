@@ -3,9 +3,9 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://maurbe.github.io/`,
     // Your Name
-    name: 'Mauro Bernardini',
+    name: 'Dr. Mauro Bernardini',
     // Main Site Title
-    title: `Mauro Bernardini - portfolio`,
+    title: `Portfolio`,
     // Description that goes under your name in main bio
     description: `Postdoctoral Researcher in Galaxy Formation based in Zurich, Switzerland🇨🇭. 
     My research focuses on numerical simulations and visualization methods, Machine Learning applications and AI integration 
