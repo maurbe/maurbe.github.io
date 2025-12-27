@@ -57,7 +57,7 @@ module.exports = {
     experience: [
       {
         name: 'Postdoctoral Researcher in Galaxy Formation',
-        description: 'University of Zurich, December 2023 - Present',
+        description: 'University of Zurich, December 2023 - December 2025',
         link: 'https://orcid.org/0000-0002-2930-9509',
       },
       {
