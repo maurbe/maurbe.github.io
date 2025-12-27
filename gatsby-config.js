@@ -22,8 +22,9 @@ module.exports = {
     // linkedin: `https://github.com/RyanFitzgerald/devfolio`,
     // Content of the About Me section
     about: `Hi there, I am an astrophysicist and data scientist by training with a passion for coding and everything AI-related.
-    I love to explore new ways to visualize complex data sets and research results.
-    Find out more through my CV above.
+    I love to explore new ways to visualize complex data sets and research results, 
+    with a focus on design and simplicity.
+    Find out more through my CV above or the projects section below.
     When I am not working on projects, you will probably find me outdoors, training handstands or reading a good book.
     Feel free to reach out, whether it's serious business or just for a friendly hi!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
@@ -88,7 +89,7 @@ module.exports = {
           'Critical thinking, scientific writing, public speaking, teaching, team/project management',
       },
       {
-        name: 'Spoken Languages',
+        name: 'Languages',
         description:
           'German (native), English (fluent), Italian (fluent), French (basic)',
       },
