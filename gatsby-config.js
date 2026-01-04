@@ -25,7 +25,7 @@ module.exports = {
     I love to explore new ways to visualize complex data sets and research results, 
     with a focus on design and simplicity.
     Find out more through my CV above or the projects section below.
-    When I am not working on projects, you will probably find me outdoors, training handstands or reading a good book.
+    In my free time you will probably find me outdoors, training handstands or reading a good book.
     Feel free to reach out, whether it's serious business or just for a friendly hi!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
