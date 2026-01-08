@@ -91,7 +91,7 @@ module.exports = {
       {
         name: 'Languages',
         description:
-          'German (native), English (fluent), Italian (fluent), French (basic)',
+          'German (native), English (proficient), Italian (fluent), French (basic)',
       },
     ],
   },

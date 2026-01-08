@@ -44,6 +44,9 @@ export const pageQuery = graphql`
         author
         github
         linkedin
+        ads
+        researchgate
+        orcid
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

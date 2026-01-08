@@ -5,7 +5,7 @@ import React from 'react';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SectionAbout from '../components/section-about';
-import SectionBlog from '../components/section-blog';
+import BlogPosts from '../components/blog-posts';
 import SectionExperience from '../components/section-experience';
 import SectionProjects from '../components/section-projects';
 import SectionSkills from '../components/section-skills';
@@ -27,7 +27,7 @@ const Index = ({ data }) => {
       {projects && projects.length && <SectionProjects projects={projects} />}
       {skills && skills.length && <SectionSkills skills={skills} />}
       {experience && experience.length && (<SectionExperience experience={experience} />)}
-      {/*!noBlog && <SectionBlog posts={posts} />*/}
+      {!noBlog && <BlogPosts posts={posts} />}
     </Layout>
   );
 };
@@ -66,7 +66,6 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 5
     ) {
       edges {
         node {
