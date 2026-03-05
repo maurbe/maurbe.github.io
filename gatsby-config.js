@@ -3,7 +3,7 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://maurbe.github.io/`,
     // Your Name
-    name: 'Dr. Mauro Bernardini',
+    name: 'Mauro Bernardini',
     // Main Site Title
     title: `Portfolio`,
     // Description that goes under your name in main bio
@@ -46,12 +46,12 @@ module.exports = {
         link: 'https://maurbe.github.io/ember-2/',
       },
       {
-        name: 'punkt',
+        name: 'smudgy',
         description:
           'A python package to visualize simulation data. The package provides particle-to-grid operations using Smoothed Particle Hydrodynamics.\
           Try it out, it\'s free and blazingly fast!\
           Built with C++, OpenMP and Python.',
-        link: 'https://github.com/maurbe/punkt',
+        link: 'https://smudgy.readthedocs.io/en/latest/quickstart.html',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
