@@ -7,8 +7,8 @@ module.exports = {
     // Main Site Title
     title: `Portfolio`,
     // Description that goes under your name in main bio
-    description: `Astrophysicist with research experience in Numerical Galaxy Formation, High-Performance Computing, 
-    and Data Science based in Berlin, Germany🇩🇪. 
+    description: `Humboldt Fellow with research experience in Numerical Galaxy Formation, High-Performance Computing, 
+    and Data Science based at AIP in Potsdam, Germany 🇩🇪. 
     My interests focus on numerical and visualization methods, Machine Learning applications and AI integration 
     for scientific analysis pipelines.`,
     // Optional: Twitter account handle
@@ -49,13 +49,19 @@ module.exports = {
         name: 'smudgy',
         description:
           'A python package to visualize simulation data. The package provides particle-to-grid operations using Smoothed Particle Hydrodynamics.\
+          Runs on laptops and HPC environments, with CPU and GPU support.\
           Try it out, it\'s free and blazingly fast!\
-          Built with C++, OpenMP and Python.',
-        link: 'https://smudgy.readthedocs.io/en/latest/quickstart.html',
+          Built with Taichi and Python.',
+        link: 'https://smudgy.readthedocs.io/en/latest/start/quickstart.html',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
+      {
+        name: 'Humboldt Research Fellow in Galaxy Formation',
+        description: 'Leibniz-Institut für Astrophysik Potsdam, July 2026 - present',
+        link: 'https://orcid.org/0000-0002-2930-9509',
+      },
       {
         name: 'Postdoctoral Researcher in Galaxy Formation',
         description: 'University of Zurich, December 2023 - December 2025',

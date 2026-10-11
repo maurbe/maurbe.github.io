@@ -1,5 +1,4 @@
 import { graphql } from 'gatsby';
-import moment from 'moment';
 import React from 'react';
 
 import Header from '../components/header';
@@ -21,7 +20,7 @@ const BlogPost = ({ data }) => {
       <SEO title={post.frontmatter.title} />
       <h1 className={classes.title}>{post.frontmatter.title}</h1>
       <p className={classes.date}>
-        Posted on {moment(post.frontmatter.date).format('MMMM D, YYYY')}
+        Posted on {post.frontmatter.date}
       </p>
       <div
         className={classes.wrapper}
@@ -55,7 +54,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMMM D, YYYY")
         description
       }
     }
